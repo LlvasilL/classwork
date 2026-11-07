@@ -1,0 +1,63 @@
+/*
+  Пишите свои стили ниже. Сохраняйте файл и обновляйте страницу.
+  Начинайте каждый селектор с класса задания, например .task-01 .meter.
+  Внутри @media тоже указывайте класс задания.
+*/
+
+/* 01. Полоска в половину контейнера */
+.meter{
+  width: 50%;
+}
+/* 02. Карточка с полями */
+.note{
+  width: 90%;
+  max-width: 420px;
+  
+}
+
+/* 03. Баннер, который растёт вместе с окном */
+.banner{
+  min-height: 25vh;
+}
+/* 04. Заголовок в двух размерах */
+.headline{
+  font-size: 24px; 
+}
+
+@media screen and(min-width: 600px){
+    .headline{
+      font-size: 40px;
+    }
+}
+/* 05. Из колонки в ряд */
+.actions{
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+
+}
+@media screen and(min-width: 640px){
+  .actions{
+    flex-direction: row;
+  }
+  
+}
+/* 06. Меню из трёх ссылок */
+.menu{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+@media screen and (min-width:600px){
+  .menu{
+    flex-direction: row;
+  }
+}
+
+/* 07. Каталог на одну, две и три колонки */
+
+/* 08. Фото с подписью */
+
+/* 09. Первый экран с гибкой типографикой */
+
+/* 10. Мини-страница мастерской */
